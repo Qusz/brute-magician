@@ -29,6 +29,24 @@ body {
   background-color: wheat;
 }
 
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .title {
   text-align: center;
   margin-top: 2rem;
@@ -47,6 +65,12 @@ body {
 
 .cards {
   margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cards-game-start {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -55,6 +79,7 @@ body {
 
 .playing-card {
   width: 18%;
+  display: block;
 }
 
 .buttons {
@@ -65,24 +90,8 @@ body {
 }
 
 .btn {
-  width: 4rem;
   cursor: pointer;
 }
 
-.hvr-grow {
-  display: inline-block;
-  vertical-align: middle;
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  transition-duration: 0.3s;
-  transition-property: transform;
-}
 
-.hvr-grow:hover,
-.hvr-grow:focus,
-.hvr-grow:active {
-  transform: scale(1.1);
-}
 
