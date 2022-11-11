@@ -1,0 +1,14 @@
+{
+  "name": "brute-magician",
+  "description": "Test project to practice JS iterators &amp; generators",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Qusz",
+  "license": "ISC",
+  "scripts": {
+    "serve": "serve ./src"
+  },
+  "dependencies": {
+    "serve": "^14.1.1"
+  }
+}
