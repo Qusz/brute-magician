@@ -6,9 +6,9 @@
   "author": "Qusz",
   "license": "ISC",
   "scripts": {
-    "serve": "serve ./src"
+    "start": "serve ./"
   },
-  "dependencies": {
+  "devDependencies": {
     "serve": "^14.1.1"
   }
 }
