@@ -6,9 +6,9 @@
   "author": "Qusz",
   "license": "ISC",
   "scripts": {
-    "start": "serve ./"
+    "start": "wds --open \"/src/\""
   },
   "devDependencies": {
-    "serve": "^14.1.1"
+    "@web/dev-server": "^0.1.34"
   }
 }
